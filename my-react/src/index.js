@@ -9,7 +9,8 @@ import Classroom from './page/Classroom';
 import Purchase from './page/Purchase';
 import About from './page/About';
 import Contact from './page/Contact'
-import Login from './page/login';
+import LoginS from './page/loginS';
+import LoginT from './page/loginT';
 import Signup from './page/Signup';
 
 const router=createBrowserRouter(
@@ -20,7 +21,8 @@ const router=createBrowserRouter(
       <Route path='purchase' element={<Purchase/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact/>}/>
-      <Route path='login' element={<Login/>}/>
+      <Route path='loginS' element={<LoginS/>}/>
+      <Route path='loginT' element={<LoginT/>}/>
       <Route path='signup' element={<Signup/>}/>
     </Route>
   )
