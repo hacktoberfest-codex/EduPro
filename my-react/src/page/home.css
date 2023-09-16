@@ -1,93 +1,154 @@
-.bkgimg img{
-    width: 110rem;
-    height: 50rem;
+.bkgimg img {
+  width: 110rem;
+  height: 50rem;
 }
 
-.bkgimg{
-    position: relative;
-    padding: 5rem;
+.bkgimg {
+  position: relative;
+  padding: 5rem;
 }
 
-.text{
-    color: rgb(0, 21, 250);
-    font-size: 3rem ;
-    font-weight: bold;
-    position: absolute;
-    top: 13rem;
-    left: 12rem;
+.text {
+  color: rgb(0, 21, 250);
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 13rem;
+  left: 12rem;
 }
 
-.btn{
-    position: absolute;
-    padding: 10px;
-    font-size: 2rem;
-    top: 30rem;
-    left: 12rem;
-    color: rgb(231, 107, 190);
-    background-color: rgb(253, 253, 253);
-    border-radius: 10px;
-    transition-duration: 0.4s;
-  
+.btn {
+  position: absolute;
+  padding: 10px;
+  font-size: 2rem;
+  top: 30rem;
+  left: 12rem;
+  color: rgb(231, 107, 190);
+  background-color: rgb(253, 253, 253);
+  border-radius: 10px;
+  transition-duration: 0.4s;
 }
 
 .btn:hover {
-  background-color: #41c5d6; 
+  background-color: #41c5d6;
   color: white;
 }
 
-.card1{
-    position: relative;
-    bottom: 15rem;
-    width: 25%;
-    height: 15rem;
-    background-color: rgb(20, 52, 90);
-    float: right;
-    padding: 3px;
-    border-radius: 2rem ;
+.card1 {
+  position: relative;
+  bottom: 15rem;
+  width: 25%;
+  height: 15rem;
+  background-color: rgb(20, 52, 90);
+  float: right;
+  padding: 3px;
+  border-radius: 2rem;
 }
 
-#c1 img{
-    z-index: 1;
-    width: 4rem;
-    bottom: 22rem;
-    position: relative;
-    right: 46rem;    
+#c1 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 22rem;
+  position: relative;
+  right: 46rem;
 }
-#c2 img{
-    z-index: 1;
-    width: 4rem;
-    bottom: 22rem;
-    position: relative;
-    right: 11rem;    
+#c2 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 22rem;
+  position: relative;
+  right: 11rem;
 }
-#c3 img{
-    z-index: 1;
-    width: 4rem;
-    bottom: 22rem;
-    position: relative;
-    left: 24rem;    
+#c3 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 22rem;
+  position: relative;
+  left: 24rem;
 }
-#c4 img{
-    z-index: 1;
-    width: 4rem;
-    bottom: 22rem;
-    position: relative;
-    left: 58rem;    
-}
-
-.card2{
-    position: relative;
-    bottom: 15rem;
-    width: 25%;
-    height: 15rem;
-    background-color: rgb(230, 102, 43);
-    float: right;
-    padding: 3px;
-    border-radius: 2rem ;
+#c4 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 22rem;
+  position: relative;
+  left: 58rem;
 }
 
-.card-txt p{
-    position: relative;
-    bottom: 44rem;
-    left: 1rem;
+.card2 {
+  position: relative;
+  bottom: 15rem;
+  width: 25%;
+  height: 15rem;
+  background-color: rgb(230, 102, 43);
+  float: right;
+  padding: 3px;
+  border-radius: 2rem;
+}
+
+.card-txt p {
+  position: relative;
+  bottom: 44rem;
+  left: 1rem;
+}
+
+/*NAV MEENU*/
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  margin-right: 20px;
+  padding-bottom: 3px;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.icon-container {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon-container:hover {
+  color: #007bff;
+}
+
+/*PROFILE MENU DROPDOWN*/
+.text-3xl.active {
+  color: #007bff;
+  transition: all 1s;
+}
+
+.absolute.bg-white.show {
+  display: block;
+}
+
+.absolute.bg-white {
+  display: none;
+  width: 15rem;
+  height: auto;
+}
+
+.whitespace-nowrap.cursor-pointer {
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+  transition: background-color 0.3s;
+}
+
+.whitespace-nowrap.cursor-pointer:hover {
+  background-color: #b1b1b1;
 }
