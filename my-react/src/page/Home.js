@@ -1,5 +1,5 @@
 import React from 'react';
-import bkg from "../assets/images.jpeg";
+import bkg from "../assets/images.jpg";
 import './home.css';
 import book from '../assets/book.svg';
 import book2 from '../assets/book2.svg';
@@ -16,7 +16,7 @@ const Home = () => {
         Get selected in every exam
         </div>
         <div className='btn'>
-          <button>Contact us</button>
+          <button >Contact us</button>
         </div>
 
       {/* card number 1 */}
