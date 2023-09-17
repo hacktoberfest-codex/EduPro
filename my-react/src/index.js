@@ -11,7 +11,8 @@ import About from './page/About';
 import Contact from './page/Contact'
 import LoginS from './page/loginS';
 import LoginT from './page/loginT';
-import Signup from './page/Signup';
+import SignupS from './page/SignupS';
+import SignupT from './page/SignupT';
 
 const router=createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +24,8 @@ const router=createBrowserRouter(
       <Route path='contact' element={<Contact/>}/>
       <Route path='loginS' element={<LoginS/>}/>
       <Route path='loginT' element={<LoginT/>}/>
-      <Route path='signup' element={<Signup/>}/>
+      <Route path='signupS' element={<SignupS/>}/>
+      <Route path='signupT' element={<SignupT/>}/>
     </Route>
   )
 )
