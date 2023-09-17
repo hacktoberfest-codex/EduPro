@@ -165,6 +165,7 @@
   top: 854px;
   background-color: rgb(143 143 143);
   padding: 3px;
+  background: linear-gradient(to top left, rgb(130, 146, 248), rgb(230, 225, 227));
 }
 .q1 {
   color: #1f3c82;
