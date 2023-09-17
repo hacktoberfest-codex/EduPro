@@ -5,27 +5,46 @@
 
 .bkgimg {
   position: relative;
-  padding: 5rem;
+  padding: 0rem;
 }
 
 .text {
-  color: rgb(0, 21, 250);
+  color: rgb(0 137 173);
   font-size: 3rem;
   font-weight: bold;
   position: absolute;
-  top: 13rem;
-  left: 12rem;
+  top: 10rem;
+  left: 4rem;
 }
+.text1 {
+  color: red;
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 16rem;
+  left: 15rem;
+}
+.text2 {
+  color:rgb(0 137 173);
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 26rem;
+  left: 38rem;
+}
+
+
 
 .btn {
   position: absolute;
   padding: 10px;
   font-size: 2rem;
-  top: 30rem;
-  left: 12rem;
-  color: rgb(231, 107, 190);
-  background-color: rgb(253, 253, 253);
+  top: 35rem;
+  left: 9rem;
+  color: rgb(0 116 241);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  
   transition-duration: 0.4s;
 }
 
@@ -34,61 +53,140 @@
   color: white;
 }
 
-.card1 {
+.card4 {
   position: relative;
-  bottom: 15rem;
+  bottom: 8rem;
   width: 25%;
   height: 15rem;
-  background-color: rgb(20, 52, 90);
+  background-color: rgb(174 41 41);
   float: right;
   padding: 3px;
-  border-radius: 2rem;
+  border-radius: 0%;
 }
 
-#c1 img {
-  z-index: 1;
-  width: 4rem;
-  bottom: 22rem;
+.card3 {
   position: relative;
-  right: 46rem;
-}
-#c2 img {
-  z-index: 1;
-  width: 4rem;
-  bottom: 22rem;
-  position: relative;
-  right: 11rem;
-}
-#c3 img {
-  z-index: 1;
-  width: 4rem;
-  bottom: 22rem;
-  position: relative;
-  left: 24rem;
-}
-#c4 img {
-  z-index: 1;
-  width: 4rem;
-  bottom: 22rem;
-  position: relative;
-  left: 58rem;
+  bottom: 8rem;
+  width: 25%;
+  height: 15rem;
+  background-color: rgb(23 91 151);
+  float: right;
+  padding: 3px;
+  border-radius: 0%;
 }
 
 .card2 {
   position: relative;
-  bottom: 15rem;
+  bottom: 8rem;
   width: 25%;
   height: 15rem;
-  background-color: rgb(230, 102, 43);
+  background-color: rgb(189 184 25);
   float: right;
   padding: 3px;
-  border-radius: 2rem;
+  border-radius: 0%;
+}
+
+.card1 {
+  position: relative;
+  bottom: 8rem;
+  width: 25%;
+  height: 15rem;
+  background-color: rgb(23 92 41);
+  float: right;
+  padding: 3px;
+  border-radius: 0%;
+}
+
+#pa{
+  font-weight: 700;
+  color: white;
+  position: relative;
+  bottom: 40rem;
+  left: 10rem;
+}
+#pb{
+  font-weight: 700;
+  color: white;
+  position: relative;
+  bottom: 40rem;
+  left: 10rem;
+}
+#pc{
+  font-weight: 700;
+  color: white;
+  position: relative;
+  bottom:  40rem;
+  left: 10rem;
+}
+#pd{
+  font-weight: 700;
+  color: white;
+  position: relative;
+  bottom:  40rem;
+  left: 10rem;
 }
 
 .card-txt p {
+  color: white;
   position: relative;
   bottom: 44rem;
-  left: 1rem;
+  left: 7rem;
+}
+
+
+#c1 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 18rem;
+  position: relative;
+  right: 66rem;
+}
+#c2 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 18rem;
+  position: relative;
+  right: 15rem;
+}
+#c3 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 18rem;
+  position: relative;
+  left: 36rem;
+}
+#c4 img {
+  z-index: 1;
+  width: 4rem;
+  bottom: 18rem;
+  position: relative;
+  left: 87rem;
+}
+/* QUOTE SPACE */
+.quote{
+  position: absolute;
+  height: 27rem;
+  top: 854px;
+  background-color: rgb(143 143 143);
+  padding: 3px;
+}
+.q1{
+  color: #1f3c82;
+  text-align: center;
+  font-weight: 500;
+  font-size: 60px;
+  padding-top: 80px;
+}
+.q2{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px  240px;
+}
+.q3{
+  color: #175b97;
+  text-align: center;
+  font-weight: 800;
 }
 
 /*NAV MEENU*/
@@ -152,3 +250,119 @@
 .whitespace-nowrap.cursor-pointer:hover {
   background-color: #b1b1b1;
 }
+
+/* KEYFEATUREs */
+.Keyfeatures{
+  position: relative;
+  top: 507px;
+  background-color: #e8bf2f;
+  height: 400px;
+}
+
+#kf{
+  text-align: center;
+  position: relative;
+  top:-190px;
+  font-weight: 500;
+  font-size: 20px;
+  
+}
+#service{
+    text-align: center;
+    position: relative;
+    top: -185px;
+    font-weight: 500;
+    font-size: 25px;
+  
+}
+.Keyfeatures .boxes{
+  position: relative;
+  bottom: 8rem;
+  width: 20%;
+  height: 13rem;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  padding: 66px;
+  margin: -27px 36px;
+  border-radius: 0%;
+  }
+  .Keyfeatures .boxes p b{
+    color: #1f3c82 ;
+    }
+
+    /* social media */
+  /* #follow {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin: -105px 11px;
+  }
+    
+    
+  .followli{
+    position: relative;
+    list-style: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 28px;
+    }
+    
+  .followli:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    filter : blur(100px);
+    opacity: 0;
+    transition: 1s;
+    z-index: -1;
+  }
+    
+  .followli:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    filter : blur(100px);
+    opacity: 0;
+    transition: 1s;
+    z-index: -1;
+  }
+    
+  .followli:hover:after{
+    opacity: 1;
+  }
+    
+  .followli:hover:before{
+    opacity: 1;
+  }
+    
+  .followli a{
+    position: absolute;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+  }
+    
+  .followli a img{
+    text-shadow: 0 2px 5px rgb(0, 0, 0);
+    transition: 0.5s;
+    transform: rotateY(0deg) scale(0.8);
+    opacity: 1;
+    height: 25px;
+  }
+    
+  .followli a:hover img{
+    opacity: 1;
+    transform: scale(1.2);
+  } */
