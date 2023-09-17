@@ -4,12 +4,12 @@ import "./home.css";
 import book from "../assets/book.svg";
 import book2 from "../assets/book2.svg";
 import professor from "../assets/professor.svg";
-import diploma from "../assets/diploma.svg";
+import diploma from "../assets/diploma.svg";  
 
 const Home = () => {
   return (
     <>
-      {/* Background image */}
+      {/* Background image */} 
       <div className="bkgimg">
         <img src={bkg} />
         <div className="text">WHO SAID</div>
