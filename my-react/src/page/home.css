@@ -25,15 +25,13 @@
   left: 15rem;
 }
 .text2 {
-  color:rgb(0 137 173);
+  color: rgb(0 137 173);
   font-size: 3rem;
   font-weight: bold;
   position: absolute;
   top: 26rem;
   left: 38rem;
 }
-
-
 
 .btn {
   position: absolute;
@@ -44,7 +42,7 @@
   color: rgb(0 116 241);
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  
+
   transition-duration: 0.4s;
 }
 
@@ -90,100 +88,98 @@
   position: relative;
   bottom: 8rem;
   width: 25%;
-  height: 15rem;
+  height: 11.5rem;
   background-color: rgb(23 92 41);
   float: right;
   padding: 3px;
-  border-radius: 0%;
 }
 
-#pa{
+#pa {
   font-weight: 700;
   color: white;
   position: relative;
-  bottom: 40rem;
-  left: 10rem;
+  bottom: 42rem;
+  left: 9rem;
 }
-#pb{
+#pb {
   font-weight: 700;
   color: white;
   position: relative;
-  bottom: 40rem;
-  left: 10rem;
+  bottom: 42rem;
+  left: 9rem;
 }
-#pc{
+#pc {
   font-weight: 700;
   color: white;
   position: relative;
-  bottom:  40rem;
-  left: 10rem;
+  bottom: 42rem;
+  left: 9rem;
 }
-#pd{
+#pd {
   font-weight: 700;
   color: white;
   position: relative;
-  bottom:  40rem;
-  left: 10rem;
+  bottom: 42rem;
+  left: 9rem;
 }
 
 .card-txt p {
   color: white;
   position: relative;
-  bottom: 44rem;
-  left: 7rem;
+  bottom: 42rem;
+  left: 10rem;
 }
-
 
 #c1 img {
   z-index: 1;
   width: 4rem;
-  bottom: 18rem;
+  bottom: 21rem;
   position: relative;
-  right: 66rem;
+  right: 61rem;
 }
 #c2 img {
   z-index: 1;
   width: 4rem;
-  bottom: 18rem;
+  bottom: 21rem;
   position: relative;
-  right: 15rem;
+  right: 14rem;
 }
 #c3 img {
   z-index: 1;
   width: 4rem;
-  bottom: 18rem;
+  bottom: 21rem;
   position: relative;
-  left: 36rem;
+  left: 33rem;
 }
 #c4 img {
   z-index: 1;
   width: 4rem;
-  bottom: 18rem;
+  bottom: 21rem;
   position: relative;
-  left: 87rem;
+  left: 81rem;
 }
 /* QUOTE SPACE */
-.quote{
+.quote {
   position: absolute;
   height: 27rem;
   top: 854px;
   background-color: rgb(143 143 143);
   padding: 3px;
 }
-.q1{
+.q1 {
   color: #1f3c82;
   text-align: center;
   font-weight: 500;
   font-size: 60px;
   padding-top: 80px;
 }
-.q2{
+.q2 {
   color: white;
   text-align: center;
   padding-top: 15px;
-  margin: 0px  240px;
+  margin: 0px 240px;
 }
-.q3{
+.q3 {
   color: #175b97;
   text-align: center;
   font-weight: 800;
@@ -252,30 +248,28 @@
 }
 
 /* KEYFEATUREs */
-.Keyfeatures{
+.Keyfeatures {
   position: relative;
   top: 507px;
   background-color: #e8bf2f;
   height: 400px;
 }
 
-#kf{
+#kf {
   text-align: center;
   position: relative;
-  top:-190px;
+  top: -190px;
   font-weight: 500;
   font-size: 20px;
-  
 }
-#service{
-    text-align: center;
-    position: relative;
-    top: -185px;
-    font-weight: 500;
-    font-size: 25px;
-  
+#service {
+  text-align: center;
+  position: relative;
+  top: -185px;
+  font-weight: 500;
+  font-size: 25px;
 }
-.Keyfeatures .boxes{
+.Keyfeatures .boxes {
   position: relative;
   bottom: 8rem;
   width: 20%;
@@ -285,13 +279,13 @@
   padding: 66px;
   margin: -27px 36px;
   border-radius: 0%;
-  }
-  .Keyfeatures .boxes p b{
-    color: #1f3c82 ;
-    }
+}
+.Keyfeatures .boxes p b {
+  color: #1f3c82;
+}
 
-    /* social media */
-  /* #follow {
+/* social media */
+/* #follow {
     position: relative;
     z-index: 1;
     float: right;
