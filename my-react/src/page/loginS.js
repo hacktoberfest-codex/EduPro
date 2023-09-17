@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import stud from '../assets/stud.gif'
 import {BiShow, BiHide} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
-
+import "./login.css" 
 const Login = () => {
     const[showPassword, setShowPassword]=useState(false)
     const[data, setData]=useState({

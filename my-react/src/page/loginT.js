@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import teach from '../assets/teach.gif'
 import {BiShow, BiHide} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
-
+import "./login.css"
 const Login = () => {
     const[showPassword, setShowPassword]=useState(false)
     const[data, setData]=useState({
@@ -37,7 +37,7 @@ const Login = () => {
     }
   return (
     <div className='p-3 md:p-4'>
-    <div className='w-full max-w-sm bg-white m-auto flex items-center flex-col p-4'>
+    <div className='qwert w-full max-w-sm bg-white m-auto flex items-center flex-col p-4' bg-blue>
        {/* <h1 className='text-center txt-2xl font-bold'>Sign Up</h1>*/}
        <div className='w-40 overflow-hidden'>
             <img src={teach} className='w-full flex item-center m-auto'/>
